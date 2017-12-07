@@ -8,4 +8,10 @@ public class FooServiceImpl implements FooService {
         
         return "hello  " + name;
 	}
+
+	@Override
+	public void helloRpc() {
+		// TODO Auto-generated method stub
+		
+	}
 }
