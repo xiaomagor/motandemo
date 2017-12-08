@@ -18,7 +18,7 @@ public class Client {
 			Thread.sleep(1000);
 		}
         
-        System.out.println(" 测试 更新合并");
+        System.out.println(" 测试 更新合并2");
       
     }
 }
