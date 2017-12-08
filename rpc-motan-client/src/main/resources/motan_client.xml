@@ -11,6 +11,6 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.sprin
     <!-- 
     		<motan:referer id="remoteService" interface="quickstart.FooService" directUrl="localhost:8012"/>
      -->
-    <motan:referer id="remoteService" interface="quickstart.FooService"  registry="my_zookeeper" />
+    <motan:referer id="remoteService" interface="quickstart.FooService"  registry="my_zookeeper" requestTimeout="1000" />
     
 </beans>

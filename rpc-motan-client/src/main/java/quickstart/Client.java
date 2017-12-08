@@ -13,6 +13,10 @@ public class Client {
         ApplicationContext ctx = new ClassPathXmlApplicationContext("classpath:motan_client.xml");
         FooService service = (FooService) ctx.getBean("remoteService");
 
-        System.out.println(service.hello("motan"));
+        for (int i = 0; i < 200; i++) {
+        	 System.out.println(service.hello("motan "+i));
+			Thread.sleep(1000);
+		}
+      
     }
 }
