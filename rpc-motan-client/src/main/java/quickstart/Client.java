@@ -17,6 +17,8 @@ public class Client {
         	 System.out.println(service.hello("motan "+i));
 			Thread.sleep(1000);
 		}
+        
+        System.out.println(" 测试 更新合并");
       
     }
 }
